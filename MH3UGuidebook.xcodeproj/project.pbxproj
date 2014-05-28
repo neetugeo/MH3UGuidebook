@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		289FBEA7191A1D32009DAC35 /* NEEMonsterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FBEA6191A1D32009DAC35 /* NEEMonsterPageViewController.m */; };
+		28B8CEBD191C064E00199BD5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B8CEBC191C064E00199BD5 /* Icon.png */; };
+		28CE44AE191AE1B8005276EF /* ItemListBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44AD191AE1B8005276EF /* ItemListBG.png */; };
+		28CE44B4191AE2FF005276EF /* Flooded Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44AF191AE2FF005276EF /* Flooded Forest.jpg */; };
+		28CE44B5191AE2FF005276EF /* Moga Woods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44B0191AE2FF005276EF /* Moga Woods.jpg */; };
+		28CE44B6191AE2FF005276EF /* Sandy Plains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44B1191AE2FF005276EF /* Sandy Plains.jpg */; };
+		28CE44B7191AE2FF005276EF /* Tundra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44B2191AE2FF005276EF /* Tundra.jpg */; };
+		28CE44B8191AE2FF005276EF /* Volcano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28CE44B3191AE2FF005276EF /* Volcano.jpg */; };
+		28CE44BB191AE39C005276EF /* NEEMapPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE44BA191AE39C005276EF /* NEEMapPageViewController.m */; };
+		28D00779191CC4AA00128A39 /* NEEMH3UContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D00778191CC4AA00128A39 /* NEEMH3UContactUsViewController.m */; };
+		28D3C814191CC80B009C6BED /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D3C813191CC80A009C6BED /* FacebookSDK.framework */; };
 		28D786DD1912D06300D0DFF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D786DC1912D06300D0DFF2 /* Foundation.framework */; };
 		28D786DF1912D06300D0DFF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D786DE1912D06300D0DFF2 /* CoreGraphics.framework */; };
 		28D786E11912D06300D0DFF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D786E01912D06300D0DFF2 /* UIKit.framework */; };
@@ -21,6 +32,24 @@
 		28D786FE1912D06300D0DFF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D786E01912D06300D0DFF2 /* UIKit.framework */; };
 		28D787061912D06300D0DFF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28D787041912D06300D0DFF2 /* InfoPlist.strings */; };
 		28D787081912D06300D0DFF2 /* MH3UGuidebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D787071912D06300D0DFF2 /* MH3UGuidebookTests.m */; };
+		28D7875D1912DD2400D0DFF2 /* ArmourList.xml in Resources */ = {isa = PBXBuildFile; fileRef = 28D7875C1912DD2400D0DFF2 /* ArmourList.xml */; };
+		28D8C2A1191892A60021FFD6 /* NEEItemPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D8C2A0191892A60021FFD6 /* NEEItemPageViewController.m */; };
+		28D8C2A4191892CE0021FFD6 /* NEEMH3UItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D8C2A3191892CE0021FFD6 /* NEEMH3UItem.m */; };
+		28F545161915E3AA00738FDC /* NEETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F545151915E3AA00738FDC /* NEETableViewController.m */; };
+		28F9EEAC191B5567006FCAC1 /* NEEMH3UArmour.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9EEAB191B5567006FCAC1 /* NEEMH3UArmour.m */; };
+		28F9EEAF191B55DF006FCAC1 /* NEEArmourPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9EEAE191B55DF006FCAC1 /* NEEArmourPageViewController.m */; };
+		28F9EEB1191B5EA1006FCAC1 /* MapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F9EEB0191B5EA1006FCAC1 /* MapButton.png */; };
+		28F9EEB3191B6274006FCAC1 /* MH3UOpeningClip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28F9EEB2191B6274006FCAC1 /* MH3UOpeningClip.mp3 */; };
+		562831121912F375006A0B6C /* NEEMH3UModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 562831111912F375006A0B6C /* NEEMH3UModel.m */; };
+		562831151912F69F006A0B6C /* NEEMH3UMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 562831141912F69F006A0B6C /* NEEMH3UMonster.m */; };
+		56283119191301EA006A0B6C /* NEEMH3UWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 56283118191301EA006A0B6C /* NEEMH3UWeapon.m */; };
+		56AE3BBE191975DF0000843B /* AssetBackgroundSmall in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BBD191975DF0000843B /* AssetBackgroundSmall */; };
+		56AE3BC41919793D0000843B /* MH3UGuideBookFullCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BC31919793D0000843B /* MH3UGuideBookFullCover.png */; };
+		56AE3BC919197ACA0000843B /* ArmourButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BC519197ACA0000843B /* ArmourButton.png */; };
+		56AE3BCA19197ACA0000843B /* ItemsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BC619197ACA0000843B /* ItemsButton.png */; };
+		56AE3BCB19197ACA0000843B /* MonstersButton in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BC719197ACA0000843B /* MonstersButton */; };
+		56AE3BCC19197ACA0000843B /* WeaponButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AE3BC819197ACA0000843B /* WeaponButton.png */; };
+		56AE3BD1191981900000843B /* NEEWeaponPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE3BD0191981900000843B /* NEEWeaponPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		289FBEA5191A1D32009DAC35 /* NEEMonsterPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMonsterPageViewController.h; sourceTree = "<group>"; };
+		289FBEA6191A1D32009DAC35 /* NEEMonsterPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMonsterPageViewController.m; sourceTree = "<group>"; };
+		28B8CEBC191C064E00199BD5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		28CE44AD191AE1B8005276EF /* ItemListBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemListBG.png; sourceTree = "<group>"; };
+		28CE44AF191AE2FF005276EF /* Flooded Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flooded Forest.jpg"; sourceTree = "<group>"; };
+		28CE44B0191AE2FF005276EF /* Moga Woods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moga Woods.jpg"; sourceTree = "<group>"; };
+		28CE44B1191AE2FF005276EF /* Sandy Plains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sandy Plains.jpg"; sourceTree = "<group>"; };
+		28CE44B2191AE2FF005276EF /* Tundra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tundra.jpg; sourceTree = "<group>"; };
+		28CE44B3191AE2FF005276EF /* Volcano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Volcano.jpg; sourceTree = "<group>"; };
+		28CE44B9191AE39C005276EF /* NEEMapPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMapPageViewController.h; sourceTree = "<group>"; };
+		28CE44BA191AE39C005276EF /* NEEMapPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMapPageViewController.m; sourceTree = "<group>"; };
+		28D00777191CC4AA00128A39 /* NEEMH3UContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UContactUsViewController.h; sourceTree = "<group>"; };
+		28D00778191CC4AA00128A39 /* NEEMH3UContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UContactUsViewController.m; sourceTree = "<group>"; };
+		28D3C813191CC80A009C6BED /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		28D786D91912D06300D0DFF2 /* MH3UGuidebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MH3UGuidebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D786DC1912D06300D0DFF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28D786DE1912D06300D0DFF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +96,33 @@
 		28D787031912D06300D0DFF2 /* MH3UGuidebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MH3UGuidebookTests-Info.plist"; sourceTree = "<group>"; };
 		28D787051912D06300D0DFF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28D787071912D06300D0DFF2 /* MH3UGuidebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MH3UGuidebookTests.m; sourceTree = "<group>"; };
+		28D7875C1912DD2400D0DFF2 /* ArmourList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ArmourList.xml; sourceTree = "<group>"; };
+		28D8C29F191892A60021FFD6 /* NEEItemPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEItemPageViewController.h; sourceTree = "<group>"; };
+		28D8C2A0191892A60021FFD6 /* NEEItemPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEItemPageViewController.m; sourceTree = "<group>"; };
+		28D8C2A2191892CE0021FFD6 /* NEEMH3UItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UItem.h; sourceTree = "<group>"; };
+		28D8C2A3191892CE0021FFD6 /* NEEMH3UItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UItem.m; sourceTree = "<group>"; };
+		28F545141915E3AA00738FDC /* NEETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEETableViewController.h; sourceTree = "<group>"; };
+		28F545151915E3AA00738FDC /* NEETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEETableViewController.m; sourceTree = "<group>"; };
+		28F9EEAA191B5567006FCAC1 /* NEEMH3UArmour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UArmour.h; sourceTree = "<group>"; };
+		28F9EEAB191B5567006FCAC1 /* NEEMH3UArmour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UArmour.m; sourceTree = "<group>"; };
+		28F9EEAD191B55DF006FCAC1 /* NEEArmourPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEArmourPageViewController.h; sourceTree = "<group>"; };
+		28F9EEAE191B55DF006FCAC1 /* NEEArmourPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEArmourPageViewController.m; sourceTree = "<group>"; };
+		28F9EEB0191B5EA1006FCAC1 /* MapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapButton.png; sourceTree = "<group>"; };
+		28F9EEB2191B6274006FCAC1 /* MH3UOpeningClip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MH3UOpeningClip.mp3; sourceTree = "<group>"; };
+		562831101912F375006A0B6C /* NEEMH3UModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UModel.h; sourceTree = "<group>"; };
+		562831111912F375006A0B6C /* NEEMH3UModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UModel.m; sourceTree = "<group>"; };
+		562831131912F69F006A0B6C /* NEEMH3UMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UMonster.h; sourceTree = "<group>"; };
+		562831141912F69F006A0B6C /* NEEMH3UMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UMonster.m; sourceTree = "<group>"; };
+		56283117191301EA006A0B6C /* NEEMH3UWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEMH3UWeapon.h; sourceTree = "<group>"; };
+		56283118191301EA006A0B6C /* NEEMH3UWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEMH3UWeapon.m; sourceTree = "<group>"; };
+		56AE3BBD191975DF0000843B /* AssetBackgroundSmall */ = {isa = PBXFileReference; lastKnownFileType = file; path = AssetBackgroundSmall; sourceTree = "<group>"; };
+		56AE3BC31919793D0000843B /* MH3UGuideBookFullCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MH3UGuideBookFullCover.png; sourceTree = "<group>"; };
+		56AE3BC519197ACA0000843B /* ArmourButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArmourButton.png; sourceTree = "<group>"; };
+		56AE3BC619197ACA0000843B /* ItemsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemsButton.png; sourceTree = "<group>"; };
+		56AE3BC719197ACA0000843B /* MonstersButton */ = {isa = PBXFileReference; lastKnownFileType = file; path = MonstersButton; sourceTree = "<group>"; };
+		56AE3BC819197ACA0000843B /* WeaponButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeaponButton.png; sourceTree = "<group>"; };
+		56AE3BCF191981900000843B /* NEEWeaponPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEEWeaponPageViewController.h; sourceTree = "<group>"; };
+		56AE3BD0191981900000843B /* NEEWeaponPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEEWeaponPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D786DF1912D06300D0DFF2 /* CoreGraphics.framework in Frameworks */,
+				28D3C814191CC80B009C6BED /* FacebookSDK.framework in Frameworks */,
 				28D786E11912D06300D0DFF2 /* UIKit.framework in Frameworks */,
 				28D786DD1912D06300D0DFF2 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +172,7 @@
 		28D786DB1912D06300D0DFF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28D3C813191CC80A009C6BED /* FacebookSDK.framework */,
 				28D786DC1912D06300D0DFF2 /* Foundation.framework */,
 				28D786DE1912D06300D0DFF2 /* CoreGraphics.framework */,
 				28D786E01912D06300D0DFF2 /* UIKit.framework */,
@@ -112,6 +184,16 @@
 		28D786E21912D06300D0DFF2 /* MH3UGuidebook */ = {
 			isa = PBXGroup;
 			children = (
+				28D00777191CC4AA00128A39 /* NEEMH3UContactUsViewController.h */,
+				28D00778191CC4AA00128A39 /* NEEMH3UContactUsViewController.m */,
+				28B8CEBC191C064E00199BD5 /* Icon.png */,
+				28F9EEB2191B6274006FCAC1 /* MH3UOpeningClip.mp3 */,
+				56AE3BB8191974580000843B /* Asset Images */,
+				28F5451A1915FAAA00738FDC /* Game Asset Views */,
+				28F545171915FA7500738FDC /* Model */,
+				562831161912FA52006A0B6C /* Game Assets */,
+				28F545141915E3AA00738FDC /* NEETableViewController.h */,
+				28F545151915E3AA00738FDC /* NEETableViewController.m */,
 				28D786EB1912D06300D0DFF2 /* NEEAppDelegate.h */,
 				28D786EC1912D06300D0DFF2 /* NEEAppDelegate.m */,
 				28D786EE1912D06300D0DFF2 /* Main.storyboard */,
@@ -130,6 +212,7 @@
 				28D786E51912D06300D0DFF2 /* InfoPlist.strings */,
 				28D786E81912D06300D0DFF2 /* main.m */,
 				28D786EA1912D06300D0DFF2 /* MH3UGuidebook-Prefix.pch */,
+				28D7875C1912DD2400D0DFF2 /* ArmourList.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +233,67 @@
 				28D787041912D06300D0DFF2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F545171915FA7500738FDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				562831101912F375006A0B6C /* NEEMH3UModel.h */,
+				562831111912F375006A0B6C /* NEEMH3UModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28F5451A1915FAAA00738FDC /* Game Asset Views */ = {
+			isa = PBXGroup;
+			children = (
+				28F9EEAD191B55DF006FCAC1 /* NEEArmourPageViewController.h */,
+				28F9EEAE191B55DF006FCAC1 /* NEEArmourPageViewController.m */,
+				28CE44B9191AE39C005276EF /* NEEMapPageViewController.h */,
+				28CE44BA191AE39C005276EF /* NEEMapPageViewController.m */,
+				289FBEA5191A1D32009DAC35 /* NEEMonsterPageViewController.h */,
+				289FBEA6191A1D32009DAC35 /* NEEMonsterPageViewController.m */,
+				56AE3BCF191981900000843B /* NEEWeaponPageViewController.h */,
+				56AE3BD0191981900000843B /* NEEWeaponPageViewController.m */,
+				28D8C29F191892A60021FFD6 /* NEEItemPageViewController.h */,
+				28D8C2A0191892A60021FFD6 /* NEEItemPageViewController.m */,
+			);
+			name = "Game Asset Views";
+			sourceTree = "<group>";
+		};
+		562831161912FA52006A0B6C /* Game Assets */ = {
+			isa = PBXGroup;
+			children = (
+				28F9EEAA191B5567006FCAC1 /* NEEMH3UArmour.h */,
+				28F9EEAB191B5567006FCAC1 /* NEEMH3UArmour.m */,
+				28D8C2A2191892CE0021FFD6 /* NEEMH3UItem.h */,
+				28D8C2A3191892CE0021FFD6 /* NEEMH3UItem.m */,
+				562831131912F69F006A0B6C /* NEEMH3UMonster.h */,
+				562831141912F69F006A0B6C /* NEEMH3UMonster.m */,
+				56283117191301EA006A0B6C /* NEEMH3UWeapon.h */,
+				56283118191301EA006A0B6C /* NEEMH3UWeapon.m */,
+			);
+			name = "Game Assets";
+			sourceTree = "<group>";
+		};
+		56AE3BB8191974580000843B /* Asset Images */ = {
+			isa = PBXGroup;
+			children = (
+				28F9EEB0191B5EA1006FCAC1 /* MapButton.png */,
+				28CE44AF191AE2FF005276EF /* Flooded Forest.jpg */,
+				28CE44B0191AE2FF005276EF /* Moga Woods.jpg */,
+				28CE44B1191AE2FF005276EF /* Sandy Plains.jpg */,
+				28CE44B2191AE2FF005276EF /* Tundra.jpg */,
+				28CE44B3191AE2FF005276EF /* Volcano.jpg */,
+				28CE44AD191AE1B8005276EF /* ItemListBG.png */,
+				56AE3BC519197ACA0000843B /* ArmourButton.png */,
+				56AE3BC619197ACA0000843B /* ItemsButton.png */,
+				56AE3BC719197ACA0000843B /* MonstersButton */,
+				56AE3BC819197ACA0000843B /* WeaponButton.png */,
+				56AE3BC31919793D0000843B /* MH3UGuideBookFullCover.png */,
+				56AE3BBD191975DF0000843B /* AssetBackgroundSmall */,
+			);
+			name = "Asset Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +373,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CE44B7191AE2FF005276EF /* Tundra.jpg in Resources */,
+				56AE3BCA19197ACA0000843B /* ItemsButton.png in Resources */,
+				28CE44B6191AE2FF005276EF /* Sandy Plains.jpg in Resources */,
+				56AE3BC919197ACA0000843B /* ArmourButton.png in Resources */,
 				28D786F51912D06300D0DFF2 /* Images.xcassets in Resources */,
+				28F9EEB1191B5EA1006FCAC1 /* MapButton.png in Resources */,
+				28F9EEB3191B6274006FCAC1 /* MH3UOpeningClip.mp3 in Resources */,
+				56AE3BCB19197ACA0000843B /* MonstersButton in Resources */,
 				28D786E71912D06300D0DFF2 /* InfoPlist.strings in Resources */,
+				28CE44B4191AE2FF005276EF /* Flooded Forest.jpg in Resources */,
+				28B8CEBD191C064E00199BD5 /* Icon.png in Resources */,
 				28D786F01912D06300D0DFF2 /* Main.storyboard in Resources */,
+				28CE44B5191AE2FF005276EF /* Moga Woods.jpg in Resources */,
+				28D7875D1912DD2400D0DFF2 /* ArmourList.xml in Resources */,
+				56AE3BBE191975DF0000843B /* AssetBackgroundSmall in Resources */,
+				28CE44B8191AE2FF005276EF /* Volcano.jpg in Resources */,
+				28CE44AE191AE1B8005276EF /* ItemListBG.png in Resources */,
+				56AE3BC41919793D0000843B /* MH3UGuideBookFullCover.png in Resources */,
+				56AE3BCC19197ACA0000843B /* WeaponButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +410,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562831121912F375006A0B6C /* NEEMH3UModel.m in Sources */,
+				28D8C2A1191892A60021FFD6 /* NEEItemPageViewController.m in Sources */,
+				56283119191301EA006A0B6C /* NEEMH3UWeapon.m in Sources */,
 				28D786E91912D06300D0DFF2 /* main.m in Sources */,
+				562831151912F69F006A0B6C /* NEEMH3UMonster.m in Sources */,
+				28F545161915E3AA00738FDC /* NEETableViewController.m in Sources */,
+				56AE3BD1191981900000843B /* NEEWeaponPageViewController.m in Sources */,
+				28CE44BB191AE39C005276EF /* NEEMapPageViewController.m in Sources */,
 				28D786ED1912D06300D0DFF2 /* NEEAppDelegate.m in Sources */,
+				28D00779191CC4AA00128A39 /* NEEMH3UContactUsViewController.m in Sources */,
+				28F9EEAC191B5567006FCAC1 /* NEEMH3UArmour.m in Sources */,
+				289FBEA7191A1D32009DAC35 /* NEEMonsterPageViewController.m in Sources */,
+				28D8C2A4191892CE0021FFD6 /* NEEMH3UItem.m in Sources */,
+				28F9EEAF191B55DF006FCAC1 /* NEEArmourPageViewController.m in Sources */,
 				28D786F31912D06300D0DFF2 /* NEEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +551,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/neetugeo/Downloads/MH3UGuidebookFINAL,
+					/Users/neetugeo/Downloads,
+					"/Users/neetugeo/Downloads/MH3UGuidebookFINAL-3",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MH3UGuidebook/MH3UGuidebook-Prefix.pch";
 				INFOPLIST_FILE = "MH3UGuidebook/MH3UGuidebook-Info.plist";
@@ -392,6 +570,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/neetugeo/Downloads/MH3UGuidebookFINAL,
+					/Users/neetugeo/Downloads,
+					"/Users/neetugeo/Downloads/MH3UGuidebookFINAL-3",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MH3UGuidebook/MH3UGuidebook-Prefix.pch";
 				INFOPLIST_FILE = "MH3UGuidebook/MH3UGuidebook-Info.plist";
@@ -461,6 +645,7 @@
 				28D7870D1912D06300D0DFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28D7870E1912D06300D0DFF2 /* Build configuration list for PBXNativeTarget "MH3UGuidebookTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +654,7 @@
 				28D787101912D06300D0DFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<armour>
+    <huntersgear>
+        name="Hunter's' Gear"
+        <build>
+            item0 = "X item"
+            item1 = "X item"
+            item3 = "X item"
+        </build>
+    </huntersgear>
+    
+    <jaggiaarmour>
+        name = "Jaggia Armour"
+        <build>
+            item0 = "X item"
+            item1 = "X item"
+            item2 = "X item"
+        </build>
+    </jaggiaarmour>
+</armour>

@@ -3,6 +3,7 @@
 //  MH3UGuidebook
 //
 //  Created by Neetu George on 5/1/14.
+//             neetugeo@usc.edu
 //  Copyright (c) 2014 USC. All rights reserved.
 //
 
@@ -13,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [FBLoginView class];
     return YES;
 }
 							
@@ -41,6 +43,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL*) url sourceApplication:(NSString*)sourceApplication annotation:(id)annotation
+{
+    BOOL wasHandled = [FBAppCall handleOpenURL: url sourceApplication:sourceApplication];
+    return wasHandled;
 }
 
 @end
